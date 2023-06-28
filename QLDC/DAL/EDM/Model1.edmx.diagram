@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2a9be0a8f71c4eeeb9d0c1be434b3425" Name="Diagram1">
+        <EntityTypeShape EntityType="DA_PTUDModel.CanHo" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DA_PTUDModel.DanCu" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DA_PTUDModel.DanCu_DichVu" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DA_PTUDModel.DichVu" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DA_PTUDModel.NhanVien" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DA_PTUDModel.TaiKhoan" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="DA_PTUDModel.FK_DanCu_CanHo" ManuallyRouted="false" />
+        <AssociationConnector Association="DA_PTUDModel.FK_DanCu_DichVu_DanCu" ManuallyRouted="false" />
+        <AssociationConnector Association="DA_PTUDModel.FK_DanCu_DichVu_DichVu" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
